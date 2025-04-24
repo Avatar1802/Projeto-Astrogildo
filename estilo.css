@@ -1,0 +1,92 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 11px;
+    background: #f4EEEE url(image/fundo.jpg) repeat-x;
+}
+
+div.container{
+     width: 700px;
+     margin: 0 auto;
+}
+
+header{
+    width: 700px;
+    height: 150px;
+}
+
+div.layout{
+    width: 700px;
+    overflow: auto;
+    background: url(image/fundo-conteudo.gif) repeat-y;
+}
+
+
+
+
+
+nav{
+   width: 200px;background-color: #fff;
+   float: left;
+}
+
+     nav ul {
+         padding: 0;
+         padding-right: 10px;
+         margin-top: 60px;
+         margin-bottom: 60px;
+         list-style: none;
+         text-align: right;
+         line-height: 25px;
+}
+
+    nav ul li{
+        border-bottom: 1px solid #6a6a6a;
+}
+
+        nav ul li a{
+            padding:5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #000;
+            display: block;
+        }
+       
+        nav ul li a:hover{
+            background-color: #b1b1b1;
+        }
+
+main{
+    width: 449px;
+    padding: 20px;
+    color: #fff;
+    float: right;
+}
+
+    main h1{
+        font-size:250%;
+        text-transform: uppercase;
+    }
+
+
+footer{
+    width: 700px;
+    font-size: 13px;
+    background-color: #F4EEEE;
+    overflow: hidden;
+    clear: both; 
+}
+
+    div.cx-footer-l, div.cx-footer-r{
+        width: 50%;
+    }
+
+    div.cx-footer-l{
+        text-align: left;
+        float: left;
+    }
+
+    div.cx-footer-r{
+        text-align: right;
+        float:right;
+    }       
